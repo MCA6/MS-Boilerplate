@@ -1,0 +1,49 @@
+/* Navbar */
+.navbar-default {
+    border-radius: 0;
+    border: 0;
+    background-color: $primary-color;
+    margin-bottom: 0;
+
+    .navbar-toggle {
+        border-radius: 0;
+        border: 0;
+
+        &:hover {
+            background-color: transparent;
+        }
+
+        &:focus {
+            background-color: transparent;
+        }
+    }
+
+    .navbar-brand {
+        max-width: 150px;
+        padding: 5px;
+    }
+
+    .navbar-nav {
+        li {
+            a {
+                color: #9c9c9c;
+
+                &:hover {
+                    color: #1f0051;
+                    background-color: transparent;
+                }
+
+                &:focus {
+                    color: #1f0051;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse.collapse {
+        padding: 0;
+    }
+}
