@@ -1,5 +1,5 @@
 ---
-title: Metalsmith Boilerplater
+title: Metalsmith Boilerplate
 layout: index.swig
 ---
 
